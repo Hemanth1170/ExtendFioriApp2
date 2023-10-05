@@ -1,0 +1,37 @@
+{
+	"fileName": "id_1694453813196_125_addXML",
+	"fileType": "change",
+	"changeType": "addXML",
+	"moduleName": "customer/app/variant7/changes/fragments/smartTable.fragment.xml",
+	"reference": "customer.app.variant7",
+	"packageName": "$TMP",
+	"content": {
+		"targetAggregation": "items",
+		"index": 4,
+		"fragmentPath": "fragments/smartTable.fragment.xml"
+	},
+	"selector": {
+		"id": "posting--sap.fin.gl.lib.posting.sectionLineItems",
+		"idIsLocal": true
+	},
+	"layer": "CUSTOMER_BASE",
+	"texts": {},
+	"namespace": "apps/fin.gl.documentpost/changes/",
+	"projectId": "customer.app.variant7",
+	"creation": "2023-09-11T17:36:53.272Z",
+	"originalLanguage": "EN",
+	"support": {
+		"generator": "sap.ui.rta.command",
+		"service": "",
+		"user": "",
+		"sapui5Version": "1.96.5",
+		"sourceChangeFileName": "",
+		"compositeCommand": "",
+		"command": "addXML"
+	},
+	"oDataInformation": {},
+	"dependentSelector": {},
+	"jsOnly": false,
+	"variantReference": "",
+	"appDescriptorChange": false
+}

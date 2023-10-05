@@ -1,0 +1,33 @@
+<core:FragmentDefinition 
+    id="idSmartTableFragment"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:core="sap.ui.core"
+    xmlns="sap.m"
+    controllerName="customer.app.variant7.smartTable">
+    <!-- add your xml here -->
+    <Table id="idSmartTable" inset="false"
+        items="{
+            path: '/FinsPostingGLItems',
+            sorter: {
+                path: 'TmpId'
+            }
+        }">
+        
+        <columns>
+            <Column width="12em" id="idCompanyCodeCol">
+                <Label text="Company Code" id = "idText1"/>
+            </Column>
+            <Column id="idProductCol">
+                <Text text="Product" id = "idText2"/>
+            </Column>
+        </columns>
+        <items>
+            <ColumnListItem id="idColumnListItem" vAlign="Middle">
+                <cells>
+                    <Text text="{CompanyCode}" id="idCompanyCodeText" />
+                    <Text text="{CompanyCode}" id="idProductText" />
+                </cells>
+            </ColumnListItem>
+        </items>
+    </Table>
+</core:FragmentDefinition>

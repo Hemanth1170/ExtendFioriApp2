@@ -1,0 +1,34 @@
+{
+	"fileName": "id_1694454091428_136_codeExt",
+	"fileType": "change",
+	"changeType": "codeExt",
+	"moduleName": "customer/app/variant7/changes/coding/smartTable",
+	"reference": "customer.app.variant7",
+	"packageName": "$TMP",
+	"content": {
+		"codeRef": "coding/smartTable.js"
+	},
+	"selector": {
+		"controllerName": "fin.gl.documentpost.controller.Posting"
+	},
+	"layer": "CUSTOMER_BASE",
+	"texts": {},
+	"namespace": "apps/fin.gl.documentpost/changes/",
+	"projectId": "customer.app.variant7",
+	"creation": "2023-09-11T17:41:31.431Z",
+	"originalLanguage": "EN",
+	"support": {
+		"generator": "Change.createInitialFileContent",
+		"service": "",
+		"user": "",
+		"sapui5Version": "1.96.5",
+		"sourceChangeFileName": "",
+		"compositeCommand": "",
+		"command": ""
+	},
+	"oDataInformation": {},
+	"dependentSelector": {},
+	"jsOnly": false,
+	"variantReference": "",
+	"appDescriptorChange": false
+}
